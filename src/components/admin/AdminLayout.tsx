@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, Outlet, useNavigate } from 'react-router-dom';
-import { LayoutDashboard, Package, Collection, LogOut } from 'lucide-react';
+import { LayoutDashboard, Package, TextSelection as Collection, LogOut } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 
 const AdminLayout: React.FC = () => {
